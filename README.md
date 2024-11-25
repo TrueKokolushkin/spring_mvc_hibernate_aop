@@ -10,3 +10,15 @@ Features:
 7. Logging (AOP): All operations, such as adding, editing, and deleting employees, are logged using aspect-oriented programming (AOP).
   
 The program showcases the basic integration of Spring, Hibernate, JSP/JSTL, and AOP in a small CRUD application for data management.
+  
+For create table:  
+```sql
+CREATE TABLE employees (
+  id int NOT NULL AUTO_INCREMENT,
+  name varchar(15),
+  surname varchar(25),
+  department varchar(20),
+  salary int,
+  PRIMARY KEY (id)
+) ;
+```
